@@ -42,6 +42,13 @@ body {
 	margin: 10px;
 }
 
+h3,p{
+	text-align: left;
+	font-size: 10px;
+	padding: -2px;
+	margin-left: 30px;
+}
+
 .author {
     color: #777777;
 }
