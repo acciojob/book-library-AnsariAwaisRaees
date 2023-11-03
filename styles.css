@@ -3,25 +3,43 @@ body {
     background-color: #f8f8f8;
 }
 
-.book-library {
-    background-color: #ffffff;
-    align-item: center;
-    justify-content: space-around;
-    padding: 20px;
+.heading-library{
+	background-color: white;
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 30px;
+	font-weitgh: 800;
+	width: 90%;
+	margin-left: 20px;
+	padding: 10px;
+	
 }
 
-.book {
-    text-align: center;
+.book-library{
+	background-color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weitgh: 800;
+	width: 100%;
+}
+
+.book{
+	background-color: white;
+	justify-content: center;
+	text-align: center;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 250px;
+	width: 90%;
+	display: fixed;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding:10px;
 }
 
 .book img {
     max-width: 100%;
     height: auto;
+	margin: 10px;
 }
 
 .book h3 {
@@ -34,5 +52,7 @@ body {
 
 button {
     color: #2ecc71;
-	width: 100%;
+	width: 90%;
+	margin-bottom: 20px;
+	font-size: 40px;
 }
